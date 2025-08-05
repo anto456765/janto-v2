@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JanTo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="header">
+        <div id="panneau">
+            <a href="index.html"><img src="assets/logo.png" alt="Logo JanTo" class="logo-header"></a>
+            <h2>JanTo</h2>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+        </div>
+
+        <div class="nav-items" id="nav-items"> 
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+            </ul>
+            <button id="connection" onclick="location.href='connection.html'">Se connecter</button>
+            <button id="inscription" onclick="location.href='inscription.html'">S'inscrire</button>
+        </div>
+    </div>
+
+    <main>
+        <section>
+            <div id="intro">
+                <h2>Bienvenue sur JanTo !</h2>
+                <h3>La meilleure plateforme pour regrouper les services</h3>
+                <div class="boutons">
+                    <button onclick="window.location.href='#chercher_service'">Vous cherchez un service ?</button>
+                    <button onclick="window.location.href='#proposer_service'">Vous proposez un service ?</button>
+                </div>
+            </div>
+
+
+            <div id="chercher_service">
+                <h3>Vous cherchez un service ?</h3>
+                <div id="grp_chercher">
+                    <div id="intro_chercher">
+                        <p>Vous avez une <strong>compétence</strong>, un <strong>talent</strong> ou simplement <strong>du temps libre à proposer</strong> ? <br> Sur JanTo, vous pouvez vous inscrire facilement <strong>pour offrir vos services</strong> : jardinage, sport, aide aux devoirs, coiffure, photographie… Il suffit de créer un compte, décrire ce que vous proposez, et c’est parti ! <br> Que <strong>vous soyez jeune</strong> à la recherche d’un petit revenu ou <strong>passionné par un métier</strong>, JanTo vous donne une vraie visibilité. Tout est pensé pour que votre profil inspire confiance et que les gens autour de vous puissent faire appel à vous simplement.</p>
+                    </div>
+                    <div id="img_chercher"><img src="assets/chercher_service.png" alt="Chercher un service"></div>
+                </div>
+            </div>
+
+
+            <div id="proposer_service">
+                <h3>Vous proposez un service ?</h3>
+                <div id="grp_proposer">
+                    <div id="img_proposer"><img src="assets/proposer_service.png" alt="Proposer un service"></div>
+                    <div id="intro_proposer">
+                        <p>Besoin d’un <strong>coup de main</strong> pour organiser un événement, trouver un <strong>baby-sitter</strong>, un <strong>photographe</strong>, ou bénéficier d’une <strong>aide aux devoirs</strong> ? Sur JanTo, il vous suffit de <strong>quelques clics</strong> pour poster une annonce et trouver une personne près de chez vous <strong>prête à vous rendre service</strong>. Filtrez par catégorie, <strong>consultez</strong> les profils détaillés, <strong>lisez</strong> les avis laissés par d’autres utilisateurs, puis <strong>contactez</strong> directement la personne qui correspond à vos besoins. <br> <strong>Simple, rapide et sécurisé</strong>, JanTo vous facilite la vie au quotidien !</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>© 2025 Janto. Ce site, son design et son contenu sont protégés par le droit d’auteur. Toute reproduction est interdite sans autorisation.</p>
+        <a href="mentions.html" target="_blank">Mentions légales</a>
+        <a href="politique_confidentialite.html" target="_blank">Politique de confidentialité</a>
+    </footer>
+</body>
+</html>
